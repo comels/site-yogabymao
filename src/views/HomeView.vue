@@ -1,8 +1,8 @@
 <script setup></script>
 
 <template>
-  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-    <div class="grid gap-4">
+  <div class="m-5 grid grid-cols-2 md:grid-cols-4 gap-2">
+    <div class="grid gap-2">
       <div>
         <img
           class="block h-full w-full rounded-lg object-cover object-center"
@@ -25,7 +25,7 @@
         />
       </div>
     </div>
-    <div class="grid gap-4">
+    <div class="grid gap-2">
       <div>
         <img
           class="block h-full w-full rounded-lg object-cover object-center"
@@ -48,7 +48,7 @@
         />
       </div>
     </div>
-    <div class="grid gap-4">
+    <div class="grid gap-2">
       <div>
         <img
           class="block h-full w-full rounded-lg object-cover object-center"
@@ -71,7 +71,7 @@
         />
       </div>
     </div>
-    <div class="grid gap-4">
+    <div class="grid gap-2">
       <div>
         <img
           class="block h-full w-full rounded-lg object-cover object-center"
