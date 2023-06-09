@@ -10,6 +10,7 @@
   "dependencies": {
     "flowbite": "^1.6.5",
     "flowbite-vue": "^0.0.12",
+    "opencommit": "^2.2.10",
     "sass": "^1.63.2",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0"

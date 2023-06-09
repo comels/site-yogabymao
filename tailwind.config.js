@@ -8,6 +8,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        25: "25%",
+      },
+
+      flex: {
+        25: "25%",
+      },
       colors: {
         kaki: "#776a2e",
       },
