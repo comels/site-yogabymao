@@ -16,7 +16,7 @@ module.exports = {
         25: "25%",
       },
       colors: {
-        kaki: "#776a2e",
+        kaki: "#716e63",
       },
       height: {
         128: "36rem",

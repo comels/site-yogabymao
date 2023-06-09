@@ -32,16 +32,12 @@ const emailSend = () => {
 </script>
 
 <template>
-  <section class="bg-white dark:bg-gray-900">
+  <section class="bg-white">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      <h2
-        class="mb-4 text-3xl font-medium text-center text-gray-900 dark:text-white"
-      >
+      <h2 class="mb-4 text-3xl font-medium text-center text-gray-900">
         ME CONTACTER
       </h2>
-      <p
-        class="mb-8 lg:mb-16 font-light text-center text-white0 dark:text-gray-400 sm:text-lg"
-      >
+      <p class="mb-8 lg:mb-16 font-light text-center text-white0 sm:text-lg">
         Got a technical issue? Want to send feedback about a beta feature? Need
         details about our Business plan? Let us know.
       </p>
@@ -55,7 +51,7 @@ const emailSend = () => {
             type="text"
             id="name"
             name="name"
-            class="block p-3 w-full text-gray-800 border focus:border-transparent focus:ring-black bg-white text-sm dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            class="block p-3 w-full text-gray-800 border focus:border-transparent focus:ring-black bg-white text-sm"
             placeholder="NOM PRÉNOM"
             required
           />
@@ -65,7 +61,7 @@ const emailSend = () => {
             v-model="email"
             type="email"
             name="email"
-            class="text-gray-800 border focus:border-transparent focus:ring-black text-sm block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            class="text-gray-800 border focus:border-transparent focus:ring-black text-sm block w-full p-2.5"
             placeholder="EMAIL"
             required
           />
@@ -75,7 +71,7 @@ const emailSend = () => {
             v-model="phone"
             type="tel"
             name="phone"
-            class="bg-white text-gray-800 border focus:border-transparent focus:ring-black text-sm block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            class="bg-white text-gray-800 border focus:border-transparent focus:ring-black text-sm block w-full p-2.5"
             placeholder="TÉLÉPHONE ( FACULTATIF )"
           />
         </div>
@@ -84,14 +80,14 @@ const emailSend = () => {
             v-model="message"
             name="message"
             rows="6"
-            class="block p-2.5 w-full text-sm border focus:border-transparent focus:ring-black text-gray-800 bg-white dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+            class="block p-2.5 w-full text-sm border focus:border-transparent focus:ring-black text-gray-800 bg-white"
             placeholder="VOTRE MESSAGE"
             required
           ></textarea>
         </div>
         <button
           type="submit"
-          class="py-3 px-10 text-sm font-medium text-center text-white bg-black sm:w-fit focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+          class="py-3 px-10 text-sm font-medium text-center text-white bg-kaki sm:w-fit focus:outline-none"
         >
           ENVOYER
         </button>
