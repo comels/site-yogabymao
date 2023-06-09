@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="m-5 grid grid-cols-2 md:grid-cols-4 gap-2">
+  <div class="m-2 grid grid-cols-2 md:grid-cols-4 gap-2">
     <div class="grid gap-2">
       <div>
         <img
@@ -29,7 +29,7 @@
       <div>
         <img
           class="block h-full w-full rounded-lg object-cover object-center"
-          src="https://i.pinimg.com/474x/48/b3/68/48b368d0a1d49129344aaf005378a402.jpg"
+          src="https://i.pinimg.com/474x/4f/74/2a/4f742a83af7bbf379d8bdb4d055246d1.jpg"
           alt=""
         />
       </div>
@@ -82,7 +82,7 @@
       <div>
         <img
           class="block h-full w-full rounded-lg object-cover object-center"
-          src="https://i.pinimg.com/474x/db/ac/b0/dbacb04bdd98eeef8f1fc0589319b42f.jpg"
+          src="https://i.pinimg.com/474x/16/e5/c2/16e5c22380702fa9aa092b41d6bab637.jpg"
           alt=""
         />
       </div>
