@@ -51,7 +51,7 @@ const isMenuOpen = ref(false);
           <router-link
             to="/studio"
             class="text-black hover:font-medium px-3 py-2 rounded-md font-light"
-            >LE STUDIO</router-link
+            >LES COURS</router-link
           >
           <router-link
             to="/contact"
@@ -75,7 +75,7 @@ const isMenuOpen = ref(false);
           to="/studio"
           class="text-black hover:font-medium block px-3 py-2 rounded-md font-light"
           @click="isMenuOpen = !isMenuOpen"
-          >LE STUDIO</router-link
+          >LES COURS</router-link
         >
         <router-link
           to="/contact"

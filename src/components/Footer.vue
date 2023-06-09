@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+import { RouterLink } from "vue-router";
+import { Icon } from "@iconify/vue";
+</script>
 
 <template>
   <footer class="dark:bg-gray-900 m-4">
@@ -7,11 +10,18 @@
         <ul
           class="flex flex-wrap items-center mb-6 text-sm font-light text-black sm:mb-0 dark:text-gray-400"
         >
-          <li>
-            <a href="#" class="mr-4 hover:font-medium md:mr-6">ABOUT</a>
+          <li class="mr-5">
+            <a
+              href="https://www.instagram.com/yogabymao/?hl=fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><Icon icon="mdi:instagram" color="#776a2e" width="40"
+            /></a>
           </li>
           <li>
-            <a href="#" class="hover:font-medium">CONTACT</a>
+            <RouterLink class="hover:font-medium" to="/contact"
+              >CONTACT</RouterLink
+            >
           </li>
         </ul>
       </div>
